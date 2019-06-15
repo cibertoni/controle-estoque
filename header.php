@@ -24,7 +24,8 @@
                     <a href="#" class="navbar-brand">Geek Store</a> </div>
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-8">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Controle de estoque</a></li>
+                        <li class="active"><a href="cadastro-produto.php">Cadastro de Produto</a></li>
+                        <li><a href="index.php">Controle de estoque</a></li>
                         <li><a href="#">Vendas</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>

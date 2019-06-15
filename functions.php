@@ -19,7 +19,7 @@ $produtos[] = [
     "preco" => 180.99,
     "estoque" => 10,
     "min" => 20,
-    "status" => true
+    "status" => true 
 ];
 $produtos[] = [
     "nome" => "Tenis Maneiro",
@@ -55,5 +55,17 @@ function totalEstoque()
         $soma = $soma + totalProduto($produto['preco'], $produto['estoque']);
     }
     return $soma;
+}
+
+function carregaProdutos(){
+    $arquivoProdutos = "produtos.json";
+    if (file_exists($arquivoProdutos)){
+        $jsonProdutos = file_get_contents($arquivoProdutos);
+        $arrayProdutos = json_decode($jsonProdutos, true);
+        //teste se arrayProduto === false. se for
+        //use o json_last_error_msg para imprimir msg
+        // de erro na tela.
+        return $arrayProdutos["produtos"];
+    }
 }
   // var_dump($produtos);

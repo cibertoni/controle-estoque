@@ -1,0 +1,45 @@
+{
+    "produtos": [{
+            "nome": "Camiseta Stark",
+            "preco": "50.99",
+            "estoque": "100",
+            "min": "20",
+            "status": "true"
+        },
+        {
+            "nome": "Calça Lannister",
+            "preco": "89.99",
+            "estoque": "100",
+            "min": "20",
+            "status": "false"
+        },
+        {
+            "nome": "Moletom Targeryan",
+            "preco": "180.99",
+            "estoque": "10",
+            "min": "20",
+            "status": "true"
+        },
+        {
+            "nome": "Tenis Maneiro",
+            "preco": 380.99,
+            "estoque": 100,
+            "min": 20,
+            "status": false
+        },
+        {
+            "nome": "Calça Moletom",
+            "preco": 80.99,
+            "estoque": 100,
+            "min": 20,
+            "status": true
+        },
+        {
+            "nome": "Patinete de Empreendedor Hipster",
+            "preco": 80.99,
+            "estoque": 100,
+            "min": 20,
+            "status": true
+        }
+    ]
+}
